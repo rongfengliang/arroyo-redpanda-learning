@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Product",
+  "type": "object",
+  "properties": {
+    "version": { "type": "number" },
+    "id": { "type": "string" },
+    "customer": {
+      "type": "object",
+      "properties": { "id": { "type": "string" }, "type": { "type": "string" } }
+    },
+    "type": { "type": "string" },
+    "firstName": { "type": "string" },
+    "lastName": { "type": "string" },
+    "state": { "type": "string" },
+    "street": { "type": "string" },
+    "houseNumber": { "type": "string" },
+    "city": { "type": "string" },
+    "zip": { "type": "string" },
+    "latitude": { "type": "number" },
+    "longitude": { "type": "number" },
+    "phone": { "type": "string" },
+    "additionalAddressInfo": { "type": "string" },
+    "createdAt": { "type": "string" },
+    "revision": { "type": "number" }
+  }
+}
